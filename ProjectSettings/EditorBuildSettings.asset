@@ -42,5 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Ep10_3.unity
     guid: 03a481ed08a66f08e982abcf09095e9c
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 29e78ebf16b301d499e370a0e23b8e42, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 02ade87c07966814db245869400ceb51, type: 2}
   m_UseUCBPForAssetBundles: 0
