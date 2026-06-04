@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: 9e0031591b13d3f49b2f8eef3691d27d
   m_SerializeEntries:
   - m_GUID: d61f311610caf0b41bff3f82b4379571
-    m_Address: New Table_kk-KZ
+    m_Address: ep10_String_kk-KZ
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-kk-KZ

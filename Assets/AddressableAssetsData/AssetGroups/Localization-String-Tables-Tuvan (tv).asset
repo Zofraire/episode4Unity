@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: 0efea1409e7b16045865a5b2a7596ea4
   m_SerializeEntries:
   - m_GUID: ebfcc60dd2c4b9b458755b4a85fcb761
-    m_Address: New Table_tv
+    m_Address: ep10_String_tv
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tv

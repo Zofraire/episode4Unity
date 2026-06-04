@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Asset-Tables-Sign (sign)
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-Asset-Tables-Sign (sign)
+  m_GUID: 677e4a2a15d96ac47b7a0b9b392b84f0
+  m_SerializeEntries:
+  - m_GUID: 148f5b9f64b37cd4abef6ba96a772ed6
+    m_Address: ep10_audio_sign
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 51c6a8f59852bff4f9822a13e6157e20, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e924a2a4e4789a04bb37fe6af9e6630e, type: 2}
+    - {fileID: 11400000, guid: 19b99a273a2657843a89a36561f0f02c, type: 2}

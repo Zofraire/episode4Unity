@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-English (en)
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-Assets-English (en)
+  m_GUID: 596303e3233f7c04ca59c7fc72e1802b
+  m_SerializeEntries:
+  - m_GUID: 2296b02723269f64faafe7dcc6521345
+    m_Address: "En \u0422\u0430\u0430\u043B\u0430\u043C\u0436\u0433\u04AF\u0439 \u043F\u043E\u0441\u0442
+      \u0437\u0443\u0440\u0430\u0433 \u0430\u0433\u0443\u0443\u043B\u0433\u044B\u0433
+      Block"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e50c163e644a56448b402dab5eb5782
+    m_Address: "En 4 asuu_\u0422\u0443\u0445\u0430\u0439\u043D \u043F\u043E\u0441\u0442\u044B\u0433
+      \u0445\u0430\u0440\u0441\u0430\u043D \u0431\u043E\u043B \u0447\u0438 \u044E\u0443
+      \u0445\u0438\u0439\u0445 \u0432\u044D"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 348d391d8684fef49b9bb04cf061e2ce
+    m_Address: "En 3 asuu_\u0418\u0439\u043C \u043D\u04E9\u0445\u0446\u04E9\u043B\u0434
+      \u0442\u0443\u0445\u0430\u0439\u043D \u043E\u0445\u0438\u043D\u0434 \u044F\u043C\u0430\u0440
+      \u043C\u044D\u0434\u0440\u044D\u043C\u0436 \u0442\u04E9\u0440\u04E9\u0445 \u0432\u044D"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b829c5c352e32340a6009de31de7d4a
+    m_Address: "En \u04E8\u04E9\u0440\u0438\u0439\u043D \u0446\u0430\u0445\u0438\u043C
+      \u0445\u0430\u044F\u0433\u0438\u0439\u043D \u043D\u0443\u0443\u0446 \u04AF\u0433\u0438\u0439\u0433
+      \u043D\u0430\u0439\u0437\u0443\u0443\u0434\u0434\u0430\u0430 \u0445\u044D\u043B\u044D\u0445"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 438954d22e3a6fc4daea89ef75003d3e
+    m_Address: "En 2 asuu_\u042D\u043D\u044D \u0442\u043E\u0445\u0438\u043E\u043B\u0434\u043E\u043B\u0434
+      \u044F\u043C\u0430\u0440 \u04AF\u0439\u043B\u0434\u044D\u043B \u0445\u0438\u0439\u0436
+      \u0431\u043E\u043B\u043E\u0445\u0433\u04AF\u0439 \u0432\u044D"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d738c41f307f9e40a727b3c07b0c00c
+    m_Address: "En \u0425\u04AF\u0447\u0438\u0440\u0445\u044D\u0433 \u043D\u0443\u0443\u0446
+      \u04AF\u0433 \u0430\u0448\u0438\u0433\u043B\u0430"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58ea50f38bcdd144a873cca1468dde27
+    m_Address: "En \u0414\u043E\u0440\u043E\u043C\u0436\u0438\u043B\u0441\u043E\u043D
+      \u043A\u043E\u043C\u043C\u0435\u043D\u0442 \u0431\u043E\u043B\u043E\u043D \u0451\u0441
+      \u0431\u0443\u0441 \u0430\u0433\u0443\u0443\u043B\u0433\u0430"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fa151306df50b640b2e688b5054d1fa
+    m_Address: "En \u0422\u0430\u043D\u0438\u0445\u0433\u04AF\u0439 \u0445\u04AF\u043D\u044D\u044D\u0441
+      \u0438\u0440\u0441\u044D\u043D \u043B\u0438\u043D\u043A\u0438\u0439\u0433 \u043D\u044D\u044D\u0436
+      \u04AF\u0437\u044D\u0445"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77789d52544d1d54fa1d87ffb57a9fc4
+    m_Address: "En 5 zuv_\u0423\u0443\u0447\u043B\u0430\u043B\u0442 \u0433\u0443\u0439\u0436,
+      \u0431\u0443\u0440\u0443\u0443 \u04AF\u0439\u043B\u0434\u043B\u044D\u044D \u0434\u0430\u0445\u0438\u043D
+      \u0433\u0430\u0440\u0433\u0430\u0445\u0433\u04AF\u0439 \u0431\u0430\u0439\u0445
+      \u043D\u044C"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c8800bc244c9f94a8e65ef9b2f5d89f
+    m_Address: "En Privacy \u0445\u044D\u0441\u0433\u044D\u044D \u0448\u0430\u043B\u0433\u0430\u043D
+      \u04E9\u04E9\u0440\u0442 \u043D\u0438\u0439\u0446\u04AF\u04AF\u043B\u044D\u043D
+      \u0442\u043E\u0445\u0438\u0440\u0443\u0443\u043B\u0436 \u0431\u0430\u0439\u0445"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a035b49355464cf45b001a05bbe45fb8
+    m_Address: "En \u0425\u044D\u043D\u0442\u044D\u0439 \u0445\u043E\u043B\u0431\u043E\u043E
+      \u0431\u0430\u0440\u044C\u0436 \u0431\u0443\u0439\u0433\u0430\u0430 \u0441\u0430\u0439\u043D
+      \u043D\u044F\u0433\u0442\u043B\u0430"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a55f514f7455de547beac3047fa60ef6
+    m_Address: "En 4 zuv_\u0414\u044D\u044D\u0440\u044D\u043B\u0445\u044D\u043B\u0442\u0438\u0439\u0433
+      \u0445\u0430\u0440\u0430\u0430\u0434 \u0434\u0443\u0443\u0433\u04AF\u0439 \u04E9\u043D\u0433\u04E9\u0440\u04E9\u0445
+      \u043D\u044C \u0434\u0430\u0445\u0438\u043D \u04AF\u0439\u043B\u0434\u044D\u0433\u0434\u044D\u0445"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af4db24ae3d2d1c479885ca6d8dd33cd
+    m_Address: "En \u0426\u0430\u0445\u0438\u043C \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C
+      \u0430\u0448\u0438\u0433\u043B\u0430\u0445 \u0446\u0430\u0433\u0438\u0439\u043D
+      \u043B\u0438\u043C\u0438\u0442\u0438\u0439\u0433"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b167f0c2074239b4586ffbb2aed86459
+    m_Address: "En \u0425\u0443\u0434\u0430\u043B \u043C\u044D\u0434\u044D\u044D\u043B\u043B\u0438\u0439\u0433
+      \u043D\u044F\u0433\u0442\u0430\u043B\u0436, \u04AF\u043D\u044D\u043D \u044D\u0441\u044D\u0445\u0438\u0439\u0433"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b50ff4324a2001743958bce3e5da2f0a
+    m_Address: "En zaavar_\u0414\u0430\u0440\u0430\u0430\u0445 \u0434\u0430\u0430\u043B\u0433\u0430\u0432\u0440\u0443\u0443\u0434\u044B\u0433
+      \u0431\u0438\u0435\u043B\u04AF\u04AF\u043B\u0436 \u0446\u0430\u0445\u0438\u043C
+      \u0430\u044E\u0443\u043B\u0433\u04AF\u0439 \u0431\u0430\u0439\u0434\u043B\u0430\u0430"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1d7498c6b61b7942826ebad6f23d387
+    m_Address: "En 2 zuv_\u0425\u04AF\u043D\u0438\u0439 \u0437\u0443\u0440\u0433\u0438\u0439\u0433
+      \u0437\u04E9\u0432\u0448\u04E9\u04E9\u0440\u04E9\u043B\u0433\u04AF\u0439 \u0442\u0430\u0440\u0430\u0430\u0445
+      \u043D\u044C"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2a268db0245fa14a8ff0f79595e6952
+    m_Address: "En \u041C\u0430\u0448 \u043E\u043B\u043E\u043D \u0441\u0430\u0439\u0442\u0443\u0443\u0434\u0430\u0434
+      \u04E9\u04E9\u0440\u0438\u0439\u043D \u0445\u0430\u044F\u0433\u0430\u0430\u0440-"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c46cfef397cfa9e4e9a5717f72b39fad
+    m_Address: "En \u0413\u04AF\u0442\u0433\u044D\u0441\u044D\u043D \u0445\u0443\u0434\u0430\u043B
+      \u04AF\u0433\u0441, \u044D\u0432\u043B\u04AF\u04AF\u043B\u0441\u044D\u043D
+      \u0437\u0443\u0440\u0430\u0433 \u0437\u044D\u0440\u0433\u0438\u0439\u0433-"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9035df95730888499ecc10327ca8e67
+    m_Address: "En 3 zuv_\u0414\u043E\u0440\u043E\u043C\u0436\u0438\u043B\u0441\u043E\u043D
+      \u04AF\u0433, \u0445\u0443\u0434\u0430\u043B \u043C\u044D\u0434\u044D\u044D\u043B\u044D\u043B
+      \u043D\u044C \u0445\u04AF\u043D\u0438\u0439\u0433 \u0441\u044D\u0442\u0433\u044D\u043B"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9ffdbc9872020a40a9b96471f9bdc5a
+    m_Address: "En 1 zuv_\u0425\u044D\u043D \u043D\u044D\u0433\u043D\u0438\u0439\u0433
+      \u0441\u0430\u043D\u0430\u0430\u0442\u0430\u0439\u0433\u0430\u0430\u0440 \u0434\u043E\u0440\u043E\u043C\u0436\u0438\u043B\u0436,"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca7de2557b58cfc45a7e16e72866f7ef
+    m_Address: "En zaavar-\u041E\u043D\u043B\u0430\u0439\u043D \u0434\u0430\u0445\u044C
+      \u0430\u044E\u0443\u043B\u0442\u0430\u0439 \u0431\u043E\u043B\u043E\u043D \u0430\u044E\u0443\u043B\u0433\u04AF\u0439"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd7e5b4d9757d1148b662c3ce7967697
+    m_Address: "En zaavar_\u04E8\u0433\u04E9\u0433\u0434\u0441\u04E9\u043D \u0436\u0438\u0448\u044D\u044D\u0433
+      \u0430\u043D\u0445\u0430\u0430\u0440\u0430\u043B\u0442\u0430\u0439 \u0441\u043E\u043D\u0441\u043E\u043E\u0434,
+      \u0430\u0441\u0443\u0443\u043B\u0442\u0430\u043D\u0434"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8a4521bd2b07814b861f6aff461d87c
+    m_Address: "En \u0425\u04AF\u043D\u0438\u0439 \u0437\u0443\u0440\u0433\u0438\u0439\u0433
+      \u0437\u04E9\u0432\u0448\u04E9\u04E9\u0440\u04E9\u043B\u0433\u04AF\u0439 \u043D\u0438\u0439\u0442\u044D\u043B\u0436"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8b3571a1e158ca44875b66d669d27be
+    m_Address: "En  jishee_15 \u043D\u0430\u0441\u0442\u0430\u0439 \u043E\u0445\u0438\u043D\u044B
+      \u0442\u0430\u043B\u0430\u0430\u0440 \u0444\u044D\u0439\u0441\u0431\u04AF\u04AF\u043A
+      \u0433\u0440\u0443\u043F\u043F\u0442"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f24f148167f6e2b48a2255e836df7bd5
+    m_Address: "En 5 asii_\u0425\u044D\u0440\u044D\u0432 \u0447\u0438 \u04E9\u04E9\u0440\u04E9\u04E9
+      \u0431\u0443\u0440\u0443\u0443 \u0437\u04AF\u0439\u043B \u043F\u043E\u0441\u0442\u043E\u043B\u0441\u043E\u043D
+      \u0433\u044D\u0434\u0433\u044D\u044D-"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9a64c742671c4e4ab41f09b7d45a5dc
+    m_Address: "En 1 asuu_\u042D\u043D\u044D \u04AF\u0439\u043B\u0434\u043B\u0438\u0439\u0433
+      \u044E\u0443 \u0433\u044D\u0436 \u043D\u044D\u0440\u043B\u044D\u0445 \u0432\u044D"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 51c6a8f59852bff4f9822a13e6157e20, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1ce7fa71c84dc2f4e875cb751199713f, type: 2}
+    - {fileID: 11400000, guid: a5f227e09d29f354d9a89417cbd251f2, type: 2}

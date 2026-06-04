@@ -15,10 +15,190 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: 90283c72f020af2479224c17ca1fd2e0
   m_SerializeEntries:
+  - m_GUID: 009f240d9f34e8143b1bc61069b7b2d8
+    m_Address: 5 - mash olon siteuudad
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08275133bb04dc2c6a660d3452c6fa31
+    m_Address: 4 - gutgesen hudal
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1e283a3d0bfb02448907c186f976cfa3
     m_Address: Assets/localization/tables/New Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22c3aac9cd04c1d42b38f29071918f19
+    m_Address: 4 - dorimjilson comment
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ad96bb87fcd6d32dbb63f3e26df55b8
+    m_Address: 5 - hunii zurgiig
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3175385744d33c8e6a29b0dd4dd814c5
+    m_Address: 3 - hentei holboo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 362307b25cb3dd34f8cb2b5af5a19bff
+    m_Address: asuult 5
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e65894b989665a44a5ba153b46c279b
+    m_Address: jishee text
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4104873cef9925e40aa761d766c84a83
+    m_Address: "\u0430\u0441\u0443\u0443\u043B\u0442 3 - \u0437\u04E9\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56f2a03002fa56a4895d69fb43c1a5ee
+    m_Address: 2 - tanihgui hunees
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6756d4ef5e6b70f4eb356555c6da42b7
+    m_Address: zaavar ug
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72a3134b23975912eb65549595e0fdd7
+    m_Address: 6 - hudal medeelliig
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76bf44e9fa9c2484faf279dbe0847ec7
+    m_Address: asuult 2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fab93de1df8d64d3a2e54a2465b2ffb
+    m_Address: 1  huchirheg nuuts ug
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8762bb374d81bbf4e96d4fd9d88b3074
+    m_Address: "\u0430\u0441\u0443\u0443\u043B\u0442 5 - \u0437\u04E9\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9eb7240c987e13341b7235af663e0e48
+    m_Address: 1 - uuriin tsahim
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2f9272818bbe8b458a004eab8cae3a2
+    m_Address: asuult 1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a69b1e0b3c61b4a40be01d6477334965
+    m_Address: "\u0430\u0441\u0443\u0443\u043B\u0442 1 - \u0437\u04E9\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adaf05d508e901a4484f1208532fb87a
+    m_Address: Assets/localization/tables/ep10_audio Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0937c27ccccaf44c9f69cbe3e9ae4f3
+    m_Address: "\u0430\u0441\u0443\u0443\u043B\u0442 2 - \u0437\u04E9\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9d63b44dda177b428ed2bc17f0de4fb
+    m_Address: 3 - privacy hesgee
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb643da6be7e660428302ce3a8ed0ad5
+    m_Address: zaavar text
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c900290899fa6434fba2e7750d023659
+    m_Address: "\u0430\u0441\u0443\u0443\u043B\u0442 4 - \u0437\u0430\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dae1c3ba3bbbfa043b1f35ce9c6beee0
+    m_Address: zaavar ug
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edfb2238e81a19342a5a9b079bc2281f
+    m_Address: asuult 3
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2c1fa8186d82fe4a922132c6ab0bbe0
+    m_Address: asuult 4
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6e4c3f9e59479725b7e2c22c5f21b80
+    m_Address: 2 - taalamjgui post
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-mn
+    - Locale-sign
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 51c6a8f59852bff4f9822a13e6157e20, type: 2}

@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Tuvan (tv)
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-Assets-Tuvan (tv)
+  m_GUID: 0d3ecfc13a9638743b3e91f16916e840
+  m_SerializeEntries:
+  - m_GUID: 0601dad9c6245124a8e6eeb859997332
+    m_Address: "Tw 4 asuu_\u0422\u0443\u0445\u0430\u0439\u043D \u043F\u043E\u0441\u0442\u044B\u0433
+      \u0445\u0430\u0440\u0441\u0430\u043D \u0431\u043E\u043B \u0447\u0438 \u044E\u0443
+      \u0445\u0438\u0439\u0445 \u0432\u044D"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1905001a9009b674fa9b0604d34f29b9
+    m_Address: "Tw 5 zuv_\u0423\u0443\u0447\u043B\u0430\u043B\u0442 \u0433\u0443\u0439\u0436,
+      \u0431\u0443\u0440\u0443\u0443 \u04AF\u0439\u043B\u0434\u043B\u044D\u044D \u0434\u0430\u0445\u0438\u043D
+      \u0433\u0430\u0440\u0433\u0430\u0445\u0433\u04AF\u0439 \u0431\u0430\u0439\u0445
+      \u043D\u044C"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a81deeeb567fb948a890cd7bab7d93c
+    m_Address: "Tw \u0413\u04AF\u0442\u0433\u044D\u0441\u044D\u043D \u0445\u0443\u0434\u0430\u043B
+      \u04AF\u0433\u0441, \u044D\u0432\u043B\u04AF\u04AF\u043B\u0441\u044D\u043D
+      \u0437\u0443\u0440\u0430\u0433 \u0437\u044D\u0440\u0433\u0438\u0439\u0433-"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ec5d1bedab7b8242987f73a66a641bb
+    m_Address: "Tw \u0425\u0443\u0434\u0430\u043B \u043C\u044D\u0434\u044D\u044D\u043B\u043B\u0438\u0439\u0433
+      \u043D\u044F\u0433\u0442\u0430\u043B\u0436, \u04AF\u043D\u044D\u043D \u044D\u0441\u044D\u0445\u0438\u0439\u0433"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 270f88aeb907b274aad507a3ce14924a
+    m_Address: "Tw 5 asii_\u0425\u044D\u0440\u044D\u0432 \u0447\u0438 \u04E9\u04E9\u0440\u04E9\u04E9
+      \u0431\u0443\u0440\u0443\u0443 \u0437\u04AF\u0439\u043B \u043F\u043E\u0441\u0442\u043E\u043B\u0441\u043E\u043D
+      \u0433\u044D\u0434\u0433\u044D\u044D-"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27fda36e19fb9614db638a56974f7bb5
+    m_Address: "Tw \u0425\u044D\u043D\u0442\u044D\u0439 \u0445\u043E\u043B\u0431\u043E\u043E
+      \u0431\u0430\u0440\u044C\u0436 \u0431\u0443\u0439\u0433\u0430\u0430 \u0441\u0430\u0439\u043D
+      \u043D\u044F\u0433\u0442\u043B\u0430"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28955057d16bd984aa171255e2e98b5c
+    m_Address: "Tw 1 asuu_\u042D\u043D\u044D \u04AF\u0439\u043B\u0434\u043B\u0438\u0439\u0433
+      \u044E\u0443 \u0433\u044D\u0436 \u043D\u044D\u0440\u043B\u044D\u0445 \u0432\u044D"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e526bd2dd525e843adc3365c9988faa
+    m_Address: "Tw \u0426\u0430\u0445\u0438\u043C \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C
+      \u0430\u0448\u0438\u0433\u043B\u0430\u0445 \u0446\u0430\u0433\u0438\u0439\u043D
+      \u043B\u0438\u043C\u0438\u0442\u0438\u0439\u0433"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40b75059893448343b836a36749b3543
+    m_Address: "Tw 1 zuv_\u0425\u044D\u043D \u043D\u044D\u0433\u043D\u0438\u0439\u0433
+      \u0441\u0430\u043D\u0430\u0430\u0442\u0430\u0439\u0433\u0430\u0430\u0440 \u0434\u043E\u0440\u043E\u043C\u0436\u0438\u043B\u0436,"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 414c3e7ea3e6c874182d6273a0488215
+    m_Address: "Tw \u0422\u0430\u043D\u0438\u0445\u0433\u04AF\u0439 \u0445\u04AF\u043D\u044D\u044D\u0441
+      \u0438\u0440\u0441\u044D\u043D \u043B\u0438\u043D\u043A\u0438\u0439\u0433 \u043D\u044D\u044D\u0436
+      \u04AF\u0437\u044D\u0445"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4329376515e418d4ba41e76ec47b97b4
+    m_Address: "Tw \u0414\u043E\u0440\u043E\u043C\u0436\u0438\u043B\u0441\u043E\u043D
+      \u043A\u043E\u043C\u043C\u0435\u043D\u0442 \u0431\u043E\u043B\u043E\u043D \u0451\u0441
+      \u0431\u0443\u0441 \u0430\u0433\u0443\u0443\u043B\u0433\u0430"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71e925d7ed5c55b4eaa9cef9f0ca8afc
+    m_Address: "Tw 3 asuu_\u0418\u0439\u043C \u043D\u04E9\u0445\u0446\u04E9\u043B\u0434
+      \u0442\u0443\u0445\u0430\u0439\u043D \u043E\u0445\u0438\u043D\u0434 \u044F\u043C\u0430\u0440
+      \u043C\u044D\u0434\u0440\u044D\u043C\u0436 \u0442\u04E9\u0440\u04E9\u0445 \u0432\u044D"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 729d78c6e6e6d024bab67c46146698ff
+    m_Address: "Tw \u041C\u0430\u0448 \u043E\u043B\u043E\u043D \u0441\u0430\u0439\u0442\u0443\u0443\u0434\u0430\u0434
+      \u04E9\u04E9\u0440\u0438\u0439\u043D \u0445\u0430\u044F\u0433\u0430\u0430\u0440-"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83a4a51a125daf149be2f26691994bc1
+    m_Address: "Tw \u0425\u04AF\u043D\u0438\u0439 \u0437\u0443\u0440\u0433\u0438\u0439\u0433
+      \u0437\u04E9\u0432\u0448\u04E9\u04E9\u0440\u04E9\u043B\u0433\u04AF\u0439 \u043D\u0438\u0439\u0442\u044D\u043B\u0436"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ace6af578ef85a6478fcfd4d0319cc66
+    m_Address: "Tw zaavar-\u041E\u043D\u043B\u0430\u0439\u043D \u0434\u0430\u0445\u044C
+      \u0430\u044E\u0443\u043B\u0442\u0430\u0439 \u0431\u043E\u043B\u043E\u043D \u0430\u044E\u0443\u043B\u0433\u04AF\u0439"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b74deeabb5481944ba57e48db924c55e
+    m_Address: "Tw jishee_15 \u043D\u0430\u0441\u0442\u0430\u0439 \u043E\u0445\u0438\u043D\u044B
+      \u0442\u0430\u043B\u0430\u0430\u0440 \u0444\u044D\u0439\u0441\u0431\u04AF\u04AF\u043A
+      \u0433\u0440\u0443\u043F\u043F\u0442"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c416937c80c45d04f9a00c290fd9e57e
+    m_Address: "Tw Privacy \u0445\u044D\u0441\u0433\u044D\u044D \u0448\u0430\u043B\u0433\u0430\u043D
+      \u04E9\u04E9\u0440\u0442 \u043D\u0438\u0439\u0446\u04AF\u04AF\u043B\u044D\u043D
+      \u0442\u043E\u0445\u0438\u0440\u0443\u0443\u043B\u0436 \u0431\u0430\u0439\u0445"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c82390b419ec51047a9993a9835ec5ce
+    m_Address: "Tw zaavar_\u0414\u0430\u0440\u0430\u0430\u0445 \u0434\u0430\u0430\u043B\u0433\u0430\u0432\u0440\u0443\u0443\u0434\u044B\u0433
+      \u0431\u0438\u0435\u043B\u04AF\u04AF\u043B\u0436 \u0446\u0430\u0445\u0438\u043C
+      \u0430\u044E\u0443\u043B\u0433\u04AF\u0439 \u0431\u0430\u0439\u0434\u043B\u0430\u0430"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd6898dc5c33c4343a6fd4414922da06
+    m_Address: "Tw 4 zuv_\u0414\u044D\u044D\u0440\u044D\u043B\u0445\u044D\u043B\u0442\u0438\u0439\u0433
+      \u0445\u0430\u0440\u0430\u0430\u0434 \u0434\u0443\u0443\u0433\u04AF\u0439 \u04E9\u043D\u0433\u04E9\u0440\u04E9\u0445
+      \u043D\u044C \u0434\u0430\u0445\u0438\u043D \u04AF\u0439\u043B\u0434\u044D\u0433\u0434\u044D\u0445"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d129e37bd4934e141b27fac253db414d
+    m_Address: "Tw 2 zuv_\u0425\u04AF\u043D\u0438\u0439 \u0437\u0443\u0440\u0433\u0438\u0439\u0433
+      \u0437\u04E9\u0432\u0448\u04E9\u04E9\u0440\u04E9\u043B\u0433\u04AF\u0439 \u0442\u0430\u0440\u0430\u0430\u0445
+      \u043D\u044C"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4d8aa8997a2d534695f0e8d3639c1b2
+    m_Address: "Tw \u0425\u04AF\u0447\u0438\u0440\u0445\u044D\u0433 \u043D\u0443\u0443\u0446
+      \u04AF\u0433 \u0430\u0448\u0438\u0433\u043B\u0430"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea811ab6efa59ac47a16fc489b0cee66
+    m_Address: "Tw zaavar_\u04E8\u0433\u04E9\u0433\u0434\u0441\u04E9\u043D \u0436\u0438\u0448\u044D\u044D\u0433
+      \u0430\u043D\u0445\u0430\u0430\u0440\u0430\u043B\u0442\u0430\u0439 \u0441\u043E\u043D\u0441\u043E\u043E\u0434,
+      \u0430\u0441\u0443\u0443\u043B\u0442\u0430\u043D\u0434"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1b3f6491296d32458604ad5a24ec24b
+    m_Address: "Tw \u04E8\u04E9\u0440\u0438\u0439\u043D \u0446\u0430\u0445\u0438\u043C
+      \u0445\u0430\u044F\u0433\u0438\u0439\u043D \u043D\u0443\u0443\u0446 \u04AF\u0433\u0438\u0439\u0433
+      \u043D\u0430\u0439\u0437\u0443\u0443\u0434\u0434\u0430\u0430 \u0445\u044D\u043B\u044D\u0445"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9ee053f3e660b54d8cef60186a38f6c
+    m_Address: "Tw \u0422\u0430\u0430\u043B\u0430\u043C\u0436\u0433\u04AF\u0439 \u043F\u043E\u0441\u0442
+      \u0437\u0443\u0440\u0430\u0433 \u0430\u0433\u0443\u0443\u043B\u0433\u044B\u0433
+      Block"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcfa0202600168e4da387ab1305f38ae
+    m_Address: "Tw 2 asuu_\u042D\u043D\u044D \u0442\u043E\u0445\u0438\u043E\u043B\u0434\u043E\u043B\u0434
+      \u044F\u043C\u0430\u0440 \u04AF\u0439\u043B\u0434\u044D\u043B \u0445\u0438\u0439\u0436
+      \u0431\u043E\u043B\u043E\u0445\u0433\u04AF\u0439 \u0432\u044D"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fddf03892e164d347a3684405508344b
+    m_Address: "Tw 3 zuv_\u0414\u043E\u0440\u043E\u043C\u0436\u0438\u043B\u0441\u043E\u043D
+      \u04AF\u0433, \u0445\u0443\u0434\u0430\u043B \u043C\u044D\u0434\u044D\u044D\u043B\u044D\u043B
+      \u043D\u044C \u0445\u04AF\u043D\u0438\u0439\u0433 \u0441\u044D\u0442\u0433\u044D\u043B"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tv
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 51c6a8f59852bff4f9822a13e6157e20, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 52e097e2b51839b4f883c2cff8181c21, type: 2}
+    - {fileID: 11400000, guid: 738cc2deca8e54e4481ebf2493b76b1c, type: 2}

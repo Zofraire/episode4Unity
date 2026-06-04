@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: ep10_audio Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: ep10_audio
+  m_TableCollectionNameGuidString: adaf05d508e901a4484f1208532fb87a
+  m_Entries:
+  - m_Id: 16002260992
+    m_Key: ep10_game_1_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342805651456
+    m_Key: ep10_game_1_jishee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182730039296
+    m_Key: ep10_game_1_q1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 890929881088
+    m_Key: ep10_game_1_q1_correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 196164395008
+    m_Key: ep10_game_1_q2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 899129745408
+    m_Key: ep10_game_1_q2_correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264669962240
+    m_Key: ep10_game_1_q3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 899733725184
+    m_Key: ep10_game_1_q3_correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292306231296
+    m_Key: ep10_game_1_q4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 900404813824
+    m_Key: ep10_game_1_q4_correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325801943040
+    m_Key: ep10_game_1_q5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 901071708160
+    m_Key: ep10_game_1_q5_correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18342040510464
+    m_Key: ep10_game_2_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20867900710912
+    m_Key: ep10_game_2_q1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20954672472064
+    m_Key: ep10_game_2_q2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20960083124224
+    m_Key: ep10_game_2_q3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20961702125568
+    m_Key: ep10_game_2_q4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20963207880704
+    m_Key: ep10_game_2_q5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20970745044992
+    m_Key: ep10_game_2_q6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22722093457408
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41526630490112
+    m_Key: ep10_game_3_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41529356787712
+    m_Key: ep10_game_3_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41531403608064
+    m_Key: ep10_game_3_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41533483982848
+    m_Key: ep10_game_3_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41687624654848
+    m_Key: ep10_game_3_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41689608560640
+    m_Key: ep10_game_3_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41691793793024
+    m_Key: ep10_game_3_6
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 5429937177233195214
+  m_KeyGenerator:
+    rid: 5429937177233195202
+  references:
+    version: 2
+    RefIds:
+    - rid: 5429937177233195202
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1780584411566
+    - rid: 5429937177233195214
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 16002260992
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 342805651456
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 182730039296
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 890929881088
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 196164395008
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 899129745408
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 264669962240
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 899733725184
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 292306231296
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 900404813824
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 325801943040
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 901071708160
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - mn
+          - sign
+        - m_KeyId: 18342040510464
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - mn
+          - tv
+          - sign
+        - m_KeyId: 20867900710912
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - mn
+          - tv
+          - sign
+        - m_KeyId: 20954672472064
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - mn
+          - tv
+          - sign
+        - m_KeyId: 20960083124224
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - mn
+          - tv
+          - sign
+        - m_KeyId: 20961702125568
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - mn
+          - tv
+          - sign
+        - m_KeyId: 20963207880704
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - mn
+          - tv
+          - sign
+        - m_KeyId: 20970745044992
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - mn
+          - tv
+          - sign
+        - m_KeyId: 22722093457408
+          m_TableCodes:
+          - en
+        - m_KeyId: 41526630490112
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - sign
+          - mn
+        - m_KeyId: 41529356787712
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - sign
+          - mn
+        - m_KeyId: 41531403608064
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - sign
+          - mn
+        - m_KeyId: 41533483982848
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - sign
+          - mn
+        - m_KeyId: 41687624654848
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - sign
+          - mn
+        - m_KeyId: 41689608560640
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - sign
+          - mn
+        - m_KeyId: 41691793793024
+          m_TableCodes:
+          - en
+          - kk-KZ
+          - tv
+          - sign
+          - mn
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

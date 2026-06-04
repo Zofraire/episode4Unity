@@ -205,7 +205,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 28.9
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -718,6 +718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 49144671}
   - component: {fileID: 49144672}
+  - component: {fileID: 49144673}
   m_Layer: 0
   m_Name: asuult 5
   m_TagString: Untagged
@@ -837,6 +838,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &49144673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49144670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 325801943040
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 49144672}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &52893130
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,10 +999,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 834, y: 470}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1044,10 +1080,6 @@ PlayableDirector:
     value: {fileID: 1469039520}
   - key: {fileID: -8132115235479629075, guid: 94d5e9e11bed867498420a3f33973b9b, type: 2}
     value: {fileID: 1469039521}
-  - key: {fileID: -4829187419003175927, guid: 94d5e9e11bed867498420a3f33973b9b, type: 2}
-    value: {fileID: 1224746581}
-  - key: {fileID: -1550347693345132149, guid: 94d5e9e11bed867498420a3f33973b9b, type: 2}
-    value: {fileID: 1797400082}
   - key: {fileID: 8867419966384681228, guid: 94d5e9e11bed867498420a3f33973b9b, type: 2}
     value: {fileID: 1276461321}
   - key: {fileID: 3238678003704381431, guid: 94d5e9e11bed867498420a3f33973b9b, type: 2}
@@ -1064,14 +1096,10 @@ PlayableDirector:
     value: {fileID: 629308337}
   - key: {fileID: -3550490708949231894, guid: 8e5100538bea1f742a4d0651986d0634, type: 2}
     value: {fileID: 861512911}
-  - key: {fileID: 118173315555170580, guid: 8e5100538bea1f742a4d0651986d0634, type: 2}
-    value: {fileID: 1353613679}
   - key: {fileID: 4185573822787321190, guid: 8e5100538bea1f742a4d0651986d0634, type: 2}
     value: {fileID: 437927559}
   - key: {fileID: -3550490708949231894, guid: 382ae2618faca1d4bbe11e56fc5373d4, type: 2}
     value: {fileID: 861512911}
-  - key: {fileID: 118173315555170580, guid: 382ae2618faca1d4bbe11e56fc5373d4, type: 2}
-    value: {fileID: 352229082}
   - key: {fileID: 4185573822787321190, guid: 382ae2618faca1d4bbe11e56fc5373d4, type: 2}
     value: {fileID: 1387808483}
   - key: {fileID: -3395399071903630910, guid: 382ae2618faca1d4bbe11e56fc5373d4, type: 2}
@@ -1084,8 +1112,6 @@ PlayableDirector:
     value: {fileID: 2054759054}
   - key: {fileID: 1463982262413088065, guid: 382ae2618faca1d4bbe11e56fc5373d4, type: 2}
     value: {fileID: 629308337}
-  - key: {fileID: 118173315555170580, guid: 8caabba02a1170a4780cb041abb9a306, type: 2}
-    value: {fileID: 1855340478}
   - key: {fileID: -3550490708949231894, guid: 8caabba02a1170a4780cb041abb9a306, type: 2}
     value: {fileID: 861512911}
   - key: {fileID: 4185573822787321190, guid: 8caabba02a1170a4780cb041abb9a306, type: 2}
@@ -1102,8 +1128,6 @@ PlayableDirector:
     value: {fileID: 629308337}
   - key: {fileID: -3550490708949231894, guid: 111bb90e908bbed4fbe9f4b9e2e4b7e7, type: 2}
     value: {fileID: 861512911}
-  - key: {fileID: 118173315555170580, guid: 111bb90e908bbed4fbe9f4b9e2e4b7e7, type: 2}
-    value: {fileID: 644659102}
   - key: {fileID: 4185573822787321190, guid: 111bb90e908bbed4fbe9f4b9e2e4b7e7, type: 2}
     value: {fileID: 437927559}
   - key: {fileID: -3395399071903630910, guid: 111bb90e908bbed4fbe9f4b9e2e4b7e7, type: 2}
@@ -1118,8 +1142,6 @@ PlayableDirector:
     value: {fileID: 629308337}
   - key: {fileID: -3550490708949231894, guid: 871ba674e2be68f45b062eedd8920715, type: 2}
     value: {fileID: 861512911}
-  - key: {fileID: 118173315555170580, guid: 871ba674e2be68f45b062eedd8920715, type: 2}
-    value: {fileID: 49144672}
   - key: {fileID: 4185573822787321190, guid: 871ba674e2be68f45b062eedd8920715, type: 2}
     value: {fileID: 437927559}
   - key: {fileID: -3395399071903630910, guid: 871ba674e2be68f45b062eedd8920715, type: 2}
@@ -1138,8 +1160,6 @@ PlayableDirector:
     value: {fileID: 580826633}
   - key: {fileID: 8056607613149959862, guid: 937fe949ce5715248a8c71714c4df1b0, type: 2}
     value: {fileID: 1809415201}
-  - key: {fileID: -1517900002150217172, guid: 937fe949ce5715248a8c71714c4df1b0, type: 2}
-    value: {fileID: 2036621324}
   - key: {fileID: 4574972671836288551, guid: 937fe949ce5715248a8c71714c4df1b0, type: 2}
     value: {fileID: 28865721}
   - key: {fileID: 4891076595159814813, guid: 937fe949ce5715248a8c71714c4df1b0, type: 2}
@@ -1150,8 +1170,6 @@ PlayableDirector:
     value: {fileID: 580826633}
   - key: {fileID: 8056607613149959862, guid: d108b74cc90b26d42a5e8e933fa4e4eb, type: 2}
     value: {fileID: 267937427}
-  - key: {fileID: -1517900002150217172, guid: d108b74cc90b26d42a5e8e933fa4e4eb, type: 2}
-    value: {fileID: 989329647}
   - key: {fileID: 4574972671836288551, guid: d108b74cc90b26d42a5e8e933fa4e4eb, type: 2}
     value: {fileID: 391339828}
   - key: {fileID: 4891076595159814813, guid: d108b74cc90b26d42a5e8e933fa4e4eb, type: 2}
@@ -1172,8 +1190,6 @@ PlayableDirector:
     value: {fileID: 925828350}
   - key: {fileID: -420703675755111082, guid: ddbd98db535701a4f800d45ec35fd4e4, type: 2}
     value: {fileID: 580826633}
-  - key: {fileID: -1517900002150217172, guid: ddbd98db535701a4f800d45ec35fd4e4, type: 2}
-    value: {fileID: 99310056}
   - key: {fileID: 4574972671836288551, guid: ddbd98db535701a4f800d45ec35fd4e4, type: 2}
     value: {fileID: 614771329}
   - key: {fileID: 4891076595159814813, guid: ddbd98db535701a4f800d45ec35fd4e4, type: 2}
@@ -1184,8 +1200,6 @@ PlayableDirector:
     value: {fileID: 1727022775}
   - key: {fileID: -420703675755111082, guid: eb8784957129d95499decf234fa20305, type: 2}
     value: {fileID: 580826633}
-  - key: {fileID: -1517900002150217172, guid: eb8784957129d95499decf234fa20305, type: 2}
-    value: {fileID: 1599413603}
   - key: {fileID: 4574972671836288551, guid: eb8784957129d95499decf234fa20305, type: 2}
     value: {fileID: 690059168}
   - key: {fileID: 1301145323205926491, guid: b2213f26e04e4ff448ac2a0c9adf86cd, type: 2}
@@ -1204,6 +1218,28 @@ PlayableDirector:
     value: {fileID: 437927559}
   - key: {fileID: 2954296748858626386, guid: eb8784957129d95499decf234fa20305, type: 2}
     value: {fileID: 437927559}
+  - key: {fileID: 7825257826622692538, guid: 94d5e9e11bed867498420a3f33973b9b, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: -5917832299910994604, guid: 8e5100538bea1f742a4d0651986d0634, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: -52422856863896986, guid: 382ae2618faca1d4bbe11e56fc5373d4, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: 5458679530103471827, guid: 8caabba02a1170a4780cb041abb9a306, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: -7343177265148874443, guid: 111bb90e908bbed4fbe9f4b9e2e4b7e7, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: -716752833161955905, guid: 871ba674e2be68f45b062eedd8920715, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: -5014673837722164167, guid: 937fe949ce5715248a8c71714c4df1b0, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: -1399687215222071419, guid: d108b74cc90b26d42a5e8e933fa4e4eb, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: -6453554402722138461, guid: 162f8d0a56a04d84b8aa0bdde698d2a8, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: -5534849473414092182, guid: ddbd98db535701a4f800d45ec35fd4e4, type: 2}
+    value: {fileID: 1485420458}
+  - key: {fileID: 394191004446052460, guid: eb8784957129d95499decf234fa20305, type: 2}
+    value: {fileID: 1485420458}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &54591948
@@ -1325,7 +1361,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.4, y: 2}
+  m_AnchoredPosition: {x: -4, y: 2}
   m_SizeDelta: {x: 70, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &71043329
@@ -1461,8 +1497,8 @@ Transform:
   m_GameObject: {fileID: 74902234}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -292.4539, y: 449.1223, z: 0}
+  m_LocalScale: {x: 0.46145922, y: 0.42047065, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1889,6 +1925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 99310055}
   - component: {fileID: 99310056}
+  - component: {fileID: 99310057}
   m_Layer: 0
   m_Name: "\u0430\u0441\u0443\u0443\u043B\u0442 4 - \u0437\u0430\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
   m_TagString: Untagged
@@ -2008,6 +2045,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &99310057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99310054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 900404813824
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99310056}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &101383882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2531,7 +2603,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2900,7 +2972,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 31.95
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3019,7 +3091,7 @@ RectTransform:
   m_GameObject: {fileID: 221284021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1071070040}
@@ -3157,7 +3229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -84.4, y: 2}
+  m_AnchoredPosition: {x: -84, y: 2}
   m_SizeDelta: {x: 70, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &267937425
@@ -3953,6 +4025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352229081}
   - component: {fileID: 352229082}
+  - component: {fileID: 352229083}
   m_Layer: 0
   m_Name: asuult 2
   m_TagString: Untagged
@@ -4072,6 +4145,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &352229083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352229080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 196164395008
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 352229082}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &374135503
 GameObject:
   m_ObjectHideFlags: 0
@@ -4237,14 +4345,14 @@ RectTransform:
   m_GameObject: {fileID: 380654954}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 54591946}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -171, y: -176}
+  m_AnchoredPosition: {x: -95, y: -96}
   m_SizeDelta: {x: 121, y: 126}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &380654956
@@ -4652,7 +4760,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 32.15
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5030,7 +5138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.4952, y: 6.9902}
+  m_AnchoredPosition: {x: 3.4951782, y: 6.9902}
   m_SizeDelta: {x: 1824.4412, y: 971.6372}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &450977628
@@ -5256,7 +5364,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 31.05
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5630,8 +5738,8 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -292.4539, y: 449.1223, z: -10}
+  m_LocalScale: {x: 0.46145922, y: 0.42047065, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5723,7 +5831,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 67.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6319,14 +6427,14 @@ RectTransform:
   m_GameObject: {fileID: 605994312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1073820357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 450}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -55}
   m_SizeDelta: {x: 464, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &605994314
@@ -6520,8 +6628,8 @@ Transform:
   m_GameObject: {fileID: 619394800}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -292.4539, y: 449.1223, z: 0}
+  m_LocalScale: {x: 0.46145922, y: 0.42047065, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -6614,7 +6722,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 53.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6990,7 +7098,7 @@ RectTransform:
   m_GameObject: {fileID: 629308337}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.44, y: 0.44, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1098422471}
@@ -7028,6 +7136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 644659101}
   - component: {fileID: 644659102}
+  - component: {fileID: 644659103}
   m_Layer: 0
   m_Name: asuult 4
   m_TagString: Untagged
@@ -7147,6 +7256,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &644659103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644659100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 292306231296
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 644659102}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &664714317
 GameObject:
   m_ObjectHideFlags: 0
@@ -8022,14 +8166,14 @@ RectTransform:
   m_GameObject: {fileID: 755493617}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 54591946}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -176}
+  m_AnchoredPosition: {x: 42, y: -96}
   m_SizeDelta: {x: 121, y: 126}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &755493619
@@ -8609,10 +8753,10 @@ RectTransform:
   - {fileID: 629308338}
   m_Father: {fileID: 54591946}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &861512910
 CanvasGroup:
@@ -8967,10 +9111,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1509416863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -49.5}
-  m_SizeDelta: {x: 1920, y: 981}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887341597
 MonoBehaviour:
@@ -9254,10 +9398,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1509416863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &925091732
 MonoBehaviour:
@@ -9454,7 +9598,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 75.6, y: 2}
+  m_AnchoredPosition: {x: 76, y: 2}
   m_SizeDelta: {x: 70, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &925828348
@@ -9876,7 +10020,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 27.8
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -10230,6 +10374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989329646}
   - component: {fileID: 989329647}
+  - component: {fileID: 989329648}
   m_Layer: 0
   m_Name: "\u0430\u0441\u0443\u0443\u043B\u0442 2 - \u0437\u04E9\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
   m_TagString: Untagged
@@ -10349,6 +10494,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &989329648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989329645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 899129745408
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 989329647}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &995731929
 GameObject:
   m_ObjectHideFlags: 0
@@ -10435,7 +10615,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 30.3
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11209,10 +11389,10 @@ RectTransform:
   - {fileID: 1805215870}
   m_Father: {fileID: 54591946}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1089049478
 GameObject:
@@ -11581,6 +11761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1224746580}
   - component: {fileID: 1224746581}
+  - component: {fileID: 1224746582}
   m_Layer: 0
   m_Name: zaavar text
   m_TagString: Untagged
@@ -11700,6 +11881,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1224746582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224746579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 16002260992
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1224746581}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1255008165
 GameObject:
   m_ObjectHideFlags: 0
@@ -11786,7 +12002,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 29.25
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -12617,7 +12833,7 @@ RectTransform:
   m_GameObject: {fileID: 1276461321}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 28865719}
@@ -12630,10 +12846,10 @@ RectTransform:
   - {fileID: 690059166}
   m_Father: {fileID: 54591946}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1276461323
 Animator:
@@ -12976,10 +13192,10 @@ RectTransform:
   - {fileID: 2101168235}
   m_Father: {fileID: 54591946}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1330110753
 GameObject:
@@ -13432,6 +13648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353613680}
   - component: {fileID: 1353613679}
+  - component: {fileID: 1353613681}
   m_Layer: 0
   m_Name: asuult 1
   m_TagString: Untagged
@@ -13551,6 +13768,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1516287735}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1353613681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353613678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 182730039296
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1353613679}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1359031438
 GameObject:
   m_ObjectHideFlags: 0
@@ -14079,7 +14331,7 @@ RectTransform:
   m_GameObject: {fileID: 1387808483}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1499782899}
@@ -14336,7 +14588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1469039521
 Animator:
   serializedVersion: 7
@@ -14380,17 +14632,17 @@ RectTransform:
   m_GameObject: {fileID: 1469039520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1305363711}
   - {fileID: 1310472360}
   m_Father: {fileID: 54591946}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 30}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1477472561
 GameObject:
@@ -14477,6 +14729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1485420457}
   - component: {fileID: 1485420456}
+  - component: {fileID: 1485420458}
   m_Layer: 0
   m_Name: manager
   m_TagString: Untagged
@@ -14511,6 +14764,216 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1485420458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485420455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 768f984704e852542b0a9d0479f9b7a0, type: 2}
+    - {fileID: 11400000, guid: 955542ebeade19949a1f1b1967b856ea, type: 2}
+    - {fileID: 11400000, guid: 774dda1ea4a3ae64a947829e2d183547, type: 2}
+    - {fileID: 11400000, guid: 67895fd28ca3e4e41be72b271cb10ded, type: 2}
+    - {fileID: 11400000, guid: cd6342c85a15b164bae9420e8304716b, type: 2}
+    - {fileID: 11400000, guid: ff19039da56675f49b01d41d736e0e23, type: 2}
+    - {fileID: 11400000, guid: ad1ea850ac2d6e340aca85913fc5669b, type: 2}
+    - {fileID: 11400000, guid: f60f505f6485f054899fcf9d0df50035, type: 2}
+    - {fileID: 11400000, guid: 67bc56ab9b21777489307ef04efdd206, type: 2}
+    - {fileID: 11400000, guid: 78c3e2ddba5eeea44afcea533eaa8faf, type: 2}
+    - {fileID: 11400000, guid: e74f5bb1a31f3364f8cf25a21d895949, type: 2}
+    - {fileID: 11400000, guid: b7816ae4824455c45979ad418f0753ff, type: 2}
+    - {fileID: 11400000, guid: f6c25144ac36ec24a8b0f9e96ac37c61, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1224746581}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1797400082}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1353613679}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 352229082}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1485420455}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1855340478}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 644659102}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 49144672}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2036621324}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 989329647}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1707301842}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 99310056}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1485420455}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1488511587
 GameObject:
   m_ObjectHideFlags: 0
@@ -14899,7 +15362,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 33.95
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15024,10 +15487,10 @@ RectTransform:
   - {fileID: 887341596}
   m_Father: {fileID: 1310630611}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1515950772
 GameObject:
@@ -15522,7 +15985,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 67.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16064,7 +16527,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
+  m_fontSize: 59.1
   m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16379,6 +16842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1599413602}
   - component: {fileID: 1599413603}
+  - component: {fileID: 1599413604}
   m_Layer: 0
   m_Name: "\u0430\u0441\u0443\u0443\u043B\u0442 5 - \u0437\u04E9\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
   m_TagString: Untagged
@@ -16498,6 +16962,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1599413604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599413601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 901071708160
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1599413603}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1635351178
 GameObject:
   m_ObjectHideFlags: 0
@@ -17010,7 +17509,7 @@ RectTransform:
   m_GameObject: {fileID: 1683091702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1272204869}
@@ -17419,6 +17918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707301841}
   - component: {fileID: 1707301842}
+  - component: {fileID: 1707301843}
   m_Layer: 0
   m_Name: "\u0430\u0441\u0443\u0443\u043B\u0442 3 - \u0437\u04E9\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
   m_TagString: Untagged
@@ -17538,6 +18038,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1707301843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707301840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 899733725184
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1707301842}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1727022771
 GameObject:
   m_ObjectHideFlags: 0
@@ -17573,7 +18108,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 155.6, y: 2}
+  m_AnchoredPosition: {x: 156, y: 2}
   m_SizeDelta: {x: 70, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1727022773
@@ -17919,7 +18454,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 25.85
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18097,7 +18632,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 29.85
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18397,7 +18932,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 39.25
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18637,6 +19172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1797400081}
   - component: {fileID: 1797400082}
+  - component: {fileID: 1797400083}
   m_Layer: 0
   m_Name: jishee text
   m_TagString: Untagged
@@ -18756,6 +19292,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1797400083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797400080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 342805651456
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1797400082}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1805215869
 GameObject:
   m_ObjectHideFlags: 0
@@ -18781,7 +19352,7 @@ RectTransform:
   m_GameObject: {fileID: 1805215869}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1809415198}
@@ -18791,9 +19362,9 @@ RectTransform:
   - {fileID: 1727022772}
   m_Father: {fileID: 1073820357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 450}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -55}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1809415197
@@ -18831,7 +19402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164.4, y: 2}
+  m_AnchoredPosition: {x: -164, y: 2}
   m_SizeDelta: {x: 70, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1809415199
@@ -19477,6 +20048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855340477}
   - component: {fileID: 1855340478}
+  - component: {fileID: 1855340479}
   m_Layer: 0
   m_Name: asuult 3
   m_TagString: Untagged
@@ -19596,6 +20168,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1855340479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855340476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 264669962240
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1855340478}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1866772423
 GameObject:
   m_ObjectHideFlags: 0
@@ -20167,7 +20774,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 33.05
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -20345,7 +20952,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 32.9
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -20660,7 +21267,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 32.15
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -20913,6 +21520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2036621323}
   - component: {fileID: 2036621324}
+  - component: {fileID: 2036621325}
   m_Layer: 0
   m_Name: "\u0430\u0441\u0443\u0443\u043B\u0442 1 - \u0437\u04E9\u0432 \u0445\u0430\u0440\u0438\u0443\u043B\u0442"
   m_TagString: Untagged
@@ -21032,6 +21640,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2036621325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036621322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeAudioClipEvent
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:adaf05d508e901a4484f1208532fb87a
+    m_TableEntryReference:
+      m_KeyId: 890929881088
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2036621324}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2052565908
 GameObject:
   m_ObjectHideFlags: 0
@@ -21195,7 +21838,7 @@ RectTransform:
   m_GameObject: {fileID: 2054759054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.44, y: 0.44, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 578686695}
@@ -21736,7 +22379,7 @@ RectTransform:
   m_GameObject: {fileID: 2101168234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.44, y: 0.44, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 739791965}
@@ -21867,7 +22510,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 36.3
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
