@@ -21,6 +21,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-kk-KZ
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e38fe4aa3da057547adc93d4a72a3db5
+    m_Address: ep10_textures_kk-KZ
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-kk-KZ
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 51c6a8f59852bff4f9822a13e6157e20, type: 2}
   m_SchemaSet:

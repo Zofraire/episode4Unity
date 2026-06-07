@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Video;
@@ -34,6 +33,7 @@ namespace Project
         public void PlayOnline(string clipName)
         {
             player.url = clipName;
+            player.Play();
             OnPlay.Invoke();
         }
     }

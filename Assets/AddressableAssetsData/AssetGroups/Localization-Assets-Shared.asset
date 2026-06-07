@@ -22,12 +22,25 @@ MonoBehaviour:
     - Locale-mn
     - Locale-sign
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 011818e09e38ccb468508ff4fe262546
+    m_Address: Game Title
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-mn
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 08275133bb04dc2c6a660d3452c6fa31
     m_Address: 4 - gutgesen hudal
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-mn
     - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fad5b9ce486c7a45ac6a9fbdb6b7917
+    m_Address: Assets/localization/tables/ep10_textures Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1e283a3d0bfb02448907c186f976cfa3
     m_Address: Assets/localization/tables/New Table Shared Data.asset

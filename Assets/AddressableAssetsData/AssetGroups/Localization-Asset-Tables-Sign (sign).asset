@@ -21,6 +21,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-sign
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce1ca502c2fdea045ac5f5d23114e2ae
+    m_Address: ep10_textures_sign
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sign
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 51c6a8f59852bff4f9822a13e6157e20, type: 2}
   m_SchemaSet:

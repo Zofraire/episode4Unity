@@ -91,6 +91,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-kk-KZ
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c0e73df58d87b54f8ebed22f0fa0bbd
+    m_Address: GN-kazakh-title
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-kk-KZ
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 828c30ba86c0f734abeccd6e841c6147
     m_Address: "Kz \u0425\u044D\u043D\u0442\u044D\u0439 \u0445\u043E\u043B\u0431\u043E\u043E
       \u0431\u0430\u0440\u044C\u0436 \u0431\u0443\u0439\u0433\u0430\u0430 \u0441\u0430\u0439\u043D

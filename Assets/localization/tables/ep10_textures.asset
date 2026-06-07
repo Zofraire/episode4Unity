@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db626ad063b13545924a9839ac5fa83, type: 3}
+  m_Name: ep10_textures
+  m_EditorClassIdentifier: Unity.Localization.Editor::UnityEditor.Localization.AssetTableCollection
+  m_SharedTableData: {fileID: 11400000, guid: 0fad5b9ce486c7a45ac6a9fbdb6b7917, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: d38b7e0d74ca3dd4dbe653420aad6565, type: 2}
+  - {fileID: 11400000, guid: e38fe4aa3da057547adc93d4a72a3db5, type: 2}
+  - {fileID: 11400000, guid: d8145d8aca988724eb8c93770312c825, type: 2}
+  - {fileID: 11400000, guid: ce1ca502c2fdea045ac5f5d23114e2ae, type: 2}
+  - {fileID: 11400000, guid: 6434af1d64eaedd4d8ce61020d23d3ad, type: 2}
+  m_Extensions: []
+  m_Group: Asset Table
+  references:
+    version: 2
+    RefIds: []
