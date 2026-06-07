@@ -233,6 +233,55 @@ MonoBehaviour:
       \u0445\u0430\u043C\u0433\u0430\u0430\u043B\u0436 \u0441\u0443\u0440\u0446\u0433\u0430\u0430\u044F."
     m_Metadata:
       m_Items: []
+  - m_Id: 12689576452628480
+    m_Localized: "\u042D\u0445\u043B\u044D\u0445"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691938110021632
+    m_Localized: "Password-aa \u0437\u043E\u0445\u0438\u043E\u043D\u043E \u0443\u0443:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690843853856768
+    m_Localized: "* 8-\u0441 \u0434\u043E\u043E\u0448\u0433\u04AF\u0439 \u0442\u044D\u043C\u0434\u044D\u0433\u0442\u0442\u044D\u0439
+      \u0431\u0430\u0439\u0445\n* \u0422\u043E\u043C, \u0436\u0438\u0436\u0438\u0433
+      \u04AF\u0441\u044D\u0433 \u0430\u0433\u0443\u0443\u043B\u0441\u0430\u043D \u0431\u0430\u0439\u0445\n*
+      \u0422\u043E\u043E \u043E\u0440\u0441\u043E\u043D \u0431\u0430\u0439\u0445\n*
+      \u0422\u0443\u0441\u0433\u0430\u0439 \u0442\u044D\u043C\u0434\u044D\u0433\u0442
+      \u043E\u0440\u0441\u043E\u043D \u0431\u0430\u0439\u0445"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690917040267264
+    m_Localized: "\u04AE\u0433\u0441\u0438\u0439\u0433 \u043E\u043B\u043E\u043E\u0440\u043E\u0439"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690950062022656
+    m_Localized: "\u0423\u0442\u0430\u0441\u043D\u044B \u0434\u0443\u0433\u0430\u0430\u0440"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690995322757120
+    m_Localized: "\u042D\u043D\u044D\u0445\u04AF\u04AF \u0434\u0443\u0433\u0430\u0430\u0440\u044B\u0433
+      \u0446\u044D\u044D\u0436\u043B\u044D\u044D\u0440\u044D\u0439"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691018525646848
+    m_Localized: "\u041A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440 \u043E\u0440\u0441\u043E\u043D
+      \u0434\u04E9\u0440\u0432\u04E9\u043B\u0436\u0438\u043D\u0433 \u0434\u0430\u0440\u043D\u0430
+      \u0443\u0443."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691059587883008
+    m_Localized: "Puzzle-\u0433 \u043D\u04E9\u0445\u04E9\u043D \u0442\u0430\u0430\u0440\u0443\u0443\u043B\u0430\u0430\u0440\u0430\u0439"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691089279361024
+    m_Localized: "\u0414\u0430\u0440\u0430\u0430\u043B\u043B\u044B\u043D \u0434\u0430\u0433\u0443\u0443
+      \u0434\u0430\u0440\u0430\u0430\u0440\u0430\u0439"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691130974937088
+    m_Localized: "\u0414\u0430\u0440\u0430\u0430\u043B\u0430\u043B:"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

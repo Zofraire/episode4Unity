@@ -179,6 +179,46 @@ MonoBehaviour:
     m_Key: ep10_game3_intro
     m_Metadata:
       m_Items: []
+  - m_Id: 12689576452628480
+    m_Key: ep10_game3_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690843853856768
+    m_Key: ep10_game3_pass_req
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690917040267264
+    m_Key: ep10_game3_find
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690950062022656
+    m_Key: ep10_game3_phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690995322757120
+    m_Key: ep10_game3_memorize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691018525646848
+    m_Key: ep10_game3_computer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691059587883008
+    m_Key: ep10_game3_puzzle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691089279361024
+    m_Key: ep10_game3_order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691130974937088
+    m_Key: ep10_game3_sequence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691938110021632
+    m_Key: ep10_game3_pass
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

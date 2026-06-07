@@ -104,9 +104,6 @@ public class Level2WordSearch : MonoBehaviour
         if (popupSuccess != null)
             popupSuccess.SetActive(false);
 
-        if (adviceText != null)
-            adviceText.text = "Тааламжгүй пост зураг агуулгыг Block / Report хийж байгаарай.";
-
         if (popupAdvice != null)
             popupAdvice.SetActive(true);
     }

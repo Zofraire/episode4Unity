@@ -66,7 +66,6 @@ public class Level3Phone : MonoBehaviour
     {
         popupSuccess.SetActive(false);
 
-        adviceText.text = "Хэнтэй холбоо барьж буйгаа сайн нягтлаарай.";
         popupAdvice.SetActive(true);
         OnAdvice.Invoke();
     }

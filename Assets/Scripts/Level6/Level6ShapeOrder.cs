@@ -92,9 +92,6 @@ public class Level6ShapeOrder : MonoBehaviour
         if (popupSuccess != null)
             popupSuccess.SetActive(false);
 
-        if (adviceText != null)
-            adviceText.text = "Худал мэдээллийг нягталж, үнэн эсэхийг сайн шалгаарай.";
-
         if (popupAdvice != null)
             popupAdvice.SetActive(true);
             

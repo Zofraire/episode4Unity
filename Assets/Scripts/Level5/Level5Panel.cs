@@ -44,10 +44,7 @@ public class Level5PuzzleManager : MonoBehaviour
         
 
         if (popupSuccess != null)
-            popupSuccess.SetActive(false);
-
-        if (adviceText != null)
-            adviceText.text = "Хүний зургийг зөвшөөрөлгүй нийтэлж болохгүй шүү.";
+            popupSuccess.SetActive(false);;
 
         if (popupAdvice != null)
             popupAdvice.SetActive(true);

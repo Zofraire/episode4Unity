@@ -109,9 +109,6 @@ public class Level4Puzzle : MonoBehaviour
         if (popupSuccess != null)
             popupSuccess.SetActive(false);
 
-        if (adviceText != null)
-            adviceText.text = "Гүтгэсэн худал үгс, эвлүүлсэн зураг зэргийг баримт болгон хадгалж байгаарай.";
-
         if (popupAdvice != null)
             popupAdvice.SetActive(true);
         OnAdvice.Invoke();

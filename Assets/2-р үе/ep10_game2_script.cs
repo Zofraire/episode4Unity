@@ -6,6 +6,7 @@ using UnityEngine.Playables;
 using UnityEngine.Timeline;
 using UnityEngine.UI;
 using UnityEngine.Localization;
+using Project;
 
 public class DragDropUIManager : MonoBehaviour
 {
@@ -22,7 +23,9 @@ public class DragDropUIManager : MonoBehaviour
     [Header("Audio")]
     public AudioClip wrongAudio;
     public LocalizedAudioClip[] itemAudioClips;
+    public string[] itemSignVideos;
     private AudioSource audioSource;
+    public VideoController videoController;
 
     [Header("Draggables")]
     public GameObject[] draggableItems; 
@@ -128,16 +131,17 @@ public class DragDropUIManager : MonoBehaviour
 
         if (itemAudioClips != null && currentIndex < itemAudioClips.Length && itemAudioClips[currentIndex] != null)
         {
-            StartCoroutine(PlayAudioAndLock(itemAudioClips[currentIndex].LoadAsset()));
+            StartCoroutine(PlayAudioAndLock(itemAudioClips[currentIndex].LoadAsset(), itemSignVideos[currentIndex]));
         }
 
         SaveCurrentRoundState();
     }
 
-    IEnumerator PlayAudioAndLock(AudioClip clip)
+    IEnumerator PlayAudioAndLock(AudioClip clip, string signClip)
     {
         interactable = false;
         audioSource.PlayOneShot(clip);
+        videoController.Play(signClip);
         while (audioSource.isPlaying)
             yield return null;
         interactable = true;
@@ -214,7 +218,7 @@ public class DragDropUIManager : MonoBehaviour
         draggableItems[currentIndex].SetActive(true);
         if (itemAudioClips != null && currentIndex < itemAudioClips.Length && itemAudioClips[currentIndex] != null)
         {
-            StartCoroutine(PlayAudioAndLock(itemAudioClips[currentIndex].LoadAsset()));
+            StartCoroutine(PlayAudioAndLock(itemAudioClips[currentIndex].LoadAsset(), itemSignVideos[currentIndex]));
         }
     }
 

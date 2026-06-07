@@ -181,6 +181,54 @@ MonoBehaviour:
       our online safety."
     m_Metadata:
       m_Items: []
+  - m_Id: 12689576452628480
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690843853856768
+    m_Localized: '* Must be at least 8 characters long
+
+      * Must contain uppercase
+      and lowercase letters
+
+      * Must contain numbers
+
+      * Must contain special
+      characters'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691938110021632
+    m_Localized: 'Please create a password:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690917040267264
+    m_Localized: Find the words
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690950062022656
+    m_Localized: Phone number
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12690995322757120
+    m_Localized: Memorize this number
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691018525646848
+    m_Localized: Click on the square containing the computer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691059587883008
+    m_Localized: Reassemble the puzzle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691089279361024
+    m_Localized: Click in order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12691130974937088
+    m_Localized: 'Sequence:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
