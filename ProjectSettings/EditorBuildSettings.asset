@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Episode 2/Ep2 lvl2.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Episode 2/Ep2 Home.unity
     guid: c160c3bb13971a84fac8498962c7b516
   - enabled: 1
@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ep10_3.unity
     guid: 03a481ed08a66f08e982abcf09095e9c
+  - enabled: 1
+    path: Assets/Scenes/Emotions/Home.unity
+    guid: 2ebdfb8484871684283ddfdeb0b59c3c
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 29e78ebf16b301d499e370a0e23b8e42, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
